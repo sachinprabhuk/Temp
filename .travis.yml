@@ -6,3 +6,7 @@ node_js:
 before_script: export PORT="3000"
 
 script: npm test
+
+deploy:
+  provider: heroku
+  api_key: 1daa6941-00b9-4f7c-a306-3c8e9a3ff6d7
