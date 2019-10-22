@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "node main.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/sachinprabhuk/Temp/issues"
   },
-  "homepage": "https://github.com/sachinprabhuk/Temp#readme"
+  "homepage": "https://github.com/sachinprabhuk/Temp#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2"
+  }
 }
